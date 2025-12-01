@@ -1,5 +1,5 @@
 package javabank;
 
-public class Login {
+public class Conta {
 
 }
