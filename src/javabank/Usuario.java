@@ -3,7 +3,7 @@ package javabank;
 public class Usuario {
 	private String nome;
 	private String senha;
-	private Conta Nconta;
+	private Conta c;
 	
 		public String getnome() {
 			return nome;	
@@ -18,7 +18,7 @@ public class Usuario {
 		this.nome = nome;
 	}
 	public void setconta(Conta c) {
-		this.c = conta;
+		this.c = Conta;
 		
 	}
 }
