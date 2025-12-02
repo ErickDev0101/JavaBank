@@ -21,12 +21,13 @@ public class Sistema {
             nome = sc.nextLine();
             System.out.print("Digite a senha: ");
             senha = sc.nextLine();
-            System.out.println("\nLogin falhou! Nome de usuário e/ou senha incorretos.");
+            System.out.println("\\nLogin realizado com sucesso!\"");
         }
-        while (nome.equals("admin") && senha.equals("1234")); {
-        	
+        while (!(nome != ("admin") && ("1234"))); {
+        	System.out.println("\nLogin falhou! Nome de usuário e/ou senha incorretos.");
+        
         }
-        System.out.println("\\nLogin realizado com sucesso!\"");
+  
         	sc.close();
 }
 
